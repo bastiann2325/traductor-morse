@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/web/static/css/style.css">
-    <title>Document</title>
+    <title>Traductor Morse</title>
 </head>
 <body>
-    <div class="form-container">
+    <div class="container">
         <form class="form">
-            <div class="form-group">
-                <label for="email">Company Email</label>
-                <input type="text" id="email" name="email" required="">
-            </div>
-            <div class="form-group">
-                <label for="textarea">How Can We Help You?</label>
-                <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
-            </div>
-            <button class="form-submit-btn" type="submit">Submit</button>
+            <h1 class="title">Traductor Morse</h1>
+            <span class="input-span">
+                <label for="text" class="label">Texto</label>
+                <input type="text" name="text" id="text" placeholder="Escribir el texto aquí"/>
+            </span>
+            <span class="input-span">
+                <label for="morse" class="label">Morse</label>
+                <input type="text" name="morse" id="morse" placeholder="Escribir el Morse aquí"/>
+            </span><br>
+            <input class="reset" type="reset" value="Limpiar">
         </form>
     </div>
 </body>
