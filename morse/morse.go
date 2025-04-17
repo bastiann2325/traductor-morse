@@ -2,6 +2,17 @@ package morse
 
 import "strings"
 
+// Almacenar mapa inverso
+var reverseCode map[string]string
+
+// Reconstruir mapa inverso
+func init() {
+	reverseCode = make(map[string]string)
+	for letter, codigo := range morseCode {
+		reverseCode[codigo] = string(letter)
+	}
+}
+
 // Alfabeto Morse
 var morseCode = map[rune]string {
 	'A': ".-",
@@ -77,7 +88,7 @@ func MorseToText(morse string) string {
 	}
 
 	for _, symbol := range words {
-		if letter, ok := reverse[symbol]; ok {
+		if letter, ok := reverseCode[symbol]; ok {
 			result = append(result, letter)
 		} else {
 			result = append(result, "?")
