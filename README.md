@@ -7,14 +7,11 @@ Este es un proyecto escrito en **Go (Golang)** que permite traducir texto a cód
 - Traducción de texto a código Morse.
 - Traducción de código Morse a texto.
 - Traducción automática en tiempo real mientras escribes.
-- Backend desarrollado en Go, frontend con HTML, CSS y JavaScript.
-
 
 ## ⚙️ Tecnologías utilizadas
 
-- Go
 - HTML5 / CSS3
-- JavaScript
+- Go / JavaScript
 - Servidor HTTP nativo de Go
 
 ## 🧪 Cómo ejecutar el proyecto
@@ -26,13 +23,13 @@ Este es un proyecto escrito en **Go (Golang)** que permite traducir texto a cód
     cd UrbanStore
     ```
 
-2. **Ejecutar el servidor**
+2. **Ejecutar el servidor**:
 
     ```bash
     go run main.go
     ```
 
-3. **Abra su navegador y acceda a:**
+3. **Abra su navegador y acceda a**:
 
     ```bash
     git clone https://github.com/JuanDP10/UrbanStore.git
@@ -44,3 +41,11 @@ Este es un proyecto escrito en **Go (Golang)** que permite traducir texto a cód
 
 - Utilice el carácter " / " en Morse para indicar un espacio entre palabras.
 - Los caracteres no reconocidos serán remplazados por " ? ".
+
+## ⚠️ Requisitos
+
+- Tener instalado Go en su máquina, puede verificar si tiene Go usando el siguiente comando.
+
+     ```bash
+    go version
+    ```
