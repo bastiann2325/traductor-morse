@@ -44,7 +44,7 @@ Este es un proyecto escrito en **Go (Golang)** que permite traducir texto a cód
 
 ## ⚠️ Requisitos
 
-- Tener instalado Go en su máquina, puede verificar si tiene Go usando el siguiente comando.
+- Tener instalado Go en su máquina, puede verificar si tiene Go usando el siguiente comando desde el cmd.
 
      ```bash
     go version
