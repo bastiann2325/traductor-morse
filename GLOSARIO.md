@@ -4,7 +4,8 @@
 - range: cláusula utilizada para recorrer colecciones como slices (arreglos).
 - rune:
 - " _ ": el caracter _ significa que es una variable de descarte. Lo verás en los ciclos for de este programa, en esos casos significará que se va ignorar el índice (porque no se necesita).
-- Upper(): funció que se utiliza para convertir una cadena de texto a mayúsculas.
-- Join(): función que se utiliza para combinar elementos de una lista (slice) de cadenas en una sola cadena de texto. 
-- Split(): funcción que se utiliza para dividir una cadena de subcadenas con base en un delimitador específico (el pasado por parámetro).
-- 
+- ToUpper(): método que se utiliza para convertir una cadena de texto a mayúsculas.
+- Join(): método que se utiliza para combinar elementos de una lista (slice) de cadenas en una sola cadena de texto. 
+- Split(): método utilizado para dividir una cadena de subcadenas con base en un delimitador específico (el pasado por parámetro).
+- append(): función para agregar elementos al final de un slice.
+
