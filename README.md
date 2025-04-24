@@ -32,7 +32,7 @@ Este es un proyecto escrito en **Go (Golang)** que permite traducir texto a cód
 3. **Abra su navegador y acceda a**:
 
     ```bash
-    git clone https://github.com/JuanDP10/UrbanStore.git
+    http://localhost:8080
     ```
 
 4. **¡Empieza a traducir texto y Morse!**
