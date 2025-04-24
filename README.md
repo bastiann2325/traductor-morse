@@ -19,8 +19,8 @@ Este es un proyecto escrito en **Go (Golang)** que permite traducir texto a cód
 1. **Clona este repositorio**:
 
     ```bash
-    git clone https://github.com/JuanDP10/UrbanStore.git
-    cd UrbanStore
+    git clone https://github.com/bastiann2325/traductor-morse.git
+    cd traductor-morse
     ```
 
 2. **Ejecutar el servidor**:
